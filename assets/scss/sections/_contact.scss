@@ -47,6 +47,60 @@
 
             }
         }
+
+    }
+
+    &-header {
+        display: flex;
+        position: relative;
+        margin-bottom: toRem(5);
+
+        padding: 0;
+        z-index: 8;
+        //margin-right: toRem(10);
+
+        &__icon {
+            width: toRem(30);
+            height: toRem(30);
+            line-height: toRem(30);
+            text-align: center;
+            color: $color-white;
+            background-color: $color-primary;
+            box-shadow: 0 toEm(15) toEm(20) toEm(-5) rgba($color-primary, $alpha: 0.4);
+            border-radius: toRem(4);
+        }
+
+        &__map {
+            width: 10px;
+            max-width: 10px;
+            display: inline-block;
+        }
+
+        &__content {
+            padding-left: toRem(5);
+
+            &__title {
+                font-size: toRem(10);
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+
+            &__text {
+                font-size: toRem(12);
+                font-weight: 700;
+
+                &:focus,
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            &__hours {
+                font-size: toRem(16);
+                text-align: end;
+
+            }
+        }
     }
 
     .form {

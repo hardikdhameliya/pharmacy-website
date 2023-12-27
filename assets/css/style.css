@@ -518,6 +518,10 @@ hr {
   padding: 0.625rem 0 0.625rem;
   transition: box-shadow 0.3s linear, background-color 0.3s linear, transform 0.3s linear;
 }
+.header .navbar {
+  display: flex;
+  padding-left: 15.625rem;
+}
 .header .navbar-brand__image {
   max-height: 3.75rem;
 }
@@ -973,6 +977,47 @@ hr {
   text-decoration: underline;
 }
 .contact-block__content__hours {
+  font-size: 1rem;
+  text-align: end;
+}
+.contact-header {
+  display: flex;
+  position: relative;
+  margin-bottom: 0.3125rem;
+  padding: 0;
+  z-index: 8;
+}
+.contact-header__icon {
+  width: 1.875rem;
+  height: 1.875rem;
+  line-height: 1.875rem;
+  text-align: center;
+  color: #ffffff;
+  background-color: #812bb2;
+  box-shadow: 0 0.9375em 1.25em -0.3125em rgba(129, 43, 178, 0.4);
+  border-radius: 0.25rem;
+}
+.contact-header__map {
+  width: 10px;
+  max-width: 10px;
+  display: inline-block;
+}
+.contact-header__content {
+  padding-left: 0.3125rem;
+}
+.contact-header__content__title {
+  font-size: 0.625rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.contact-header__content__text {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+.contact-header__content__text:focus, .contact-header__content__text:hover {
+  text-decoration: underline;
+}
+.contact-header__content__hours {
   font-size: 1rem;
   text-align: end;
 }
