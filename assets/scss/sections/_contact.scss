@@ -4,12 +4,12 @@
 
     &-block {
         display: flex;
-        margin-bottom: toRem(30);
+        margin-bottom: toRem(20);
 
         &__icon {
-            width: toRem(50);
-            height: toRem(50);
-            line-height: toRem(50);
+            width: toRem(40);
+            height: toRem(40);
+            line-height: toRem(40);
             text-align: center;
             color: $color-white;
             background-color: $color-primary;
@@ -24,7 +24,8 @@
         }
 
         &__content {
-            padding-left: toRem(20);
+            //padding-left: toRem(20);
+            margin-left: toRem(10);
 
             &__title {
                 font-size: toRem(14);
@@ -33,7 +34,7 @@
             }
 
             &__text {
-                font-size: toRem(16);
+                font-size: toRem(15);
 
                 &:focus,
                 &:hover {
@@ -60,9 +61,9 @@
         //margin-right: toRem(10);
 
         &__icon {
-            width: toRem(25);
-            height: toRem(25);
-            line-height: toRem(25);
+            width: toRem(22);
+            height: toRem(22);
+            line-height: toRem(22);
             text-align: center;
             color: $color-white;
             background-color: $color-primary;

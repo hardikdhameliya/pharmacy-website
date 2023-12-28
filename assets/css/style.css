@@ -945,12 +945,12 @@ hr {
 }
 .contact-block {
   display: flex;
-  margin-bottom: 1.875rem;
+  margin-bottom: 1.25rem;
 }
 .contact-block__icon {
-  width: 3.125rem;
-  height: 3.125rem;
-  line-height: 3.125rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
   text-align: center;
   color: #ffffff;
   background-color: #812bb2;
@@ -963,7 +963,7 @@ hr {
   display: inline-block;
 }
 .contact-block__content {
-  padding-left: 1.25rem;
+  margin-left: 0.625rem;
 }
 .contact-block__content__title {
   font-size: 0.875rem;
@@ -971,7 +971,7 @@ hr {
   text-transform: uppercase;
 }
 .contact-block__content__text {
-  font-size: 1rem;
+  font-size: 0.9375rem;
 }
 .contact-block__content__text:focus, .contact-block__content__text:hover {
   text-decoration: underline;
@@ -988,9 +988,9 @@ hr {
   z-index: 8;
 }
 .contact-header__icon {
-  width: 1.5625rem;
-  height: 1.5625rem;
-  line-height: 1.5625rem;
+  width: 1.375rem;
+  height: 1.375rem;
+  line-height: 1.375rem;
   text-align: center;
   color: #ffffff;
   background-color: #812bb2;
