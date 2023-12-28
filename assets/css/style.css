@@ -520,7 +520,7 @@ hr {
 }
 .header .navbar {
   display: flex;
-  padding-left: 15.625rem;
+  margin-left: 9.375rem;
 }
 .header .navbar-brand__image {
   max-height: 3.75rem;
@@ -996,11 +996,6 @@ hr {
   background-color: #812bb2;
   box-shadow: 0 0.9375em 1.25em -0.3125em rgba(129, 43, 178, 0.4);
   border-radius: 0.25rem;
-}
-.contact-header__map {
-  width: 10px;
-  max-width: 10px;
-  display: inline-block;
 }
 .contact-header__content {
   padding-left: 0.3125rem;

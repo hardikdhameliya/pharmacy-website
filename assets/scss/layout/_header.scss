@@ -16,7 +16,8 @@
 
 	.navbar {
 		display: flex;
-		padding-left: toRem(250);
+		//padding-left: toRem(250);
+		margin-left: toRem(150);
 
 		&-brand {
 			&__image {
