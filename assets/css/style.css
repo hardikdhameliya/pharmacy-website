@@ -520,7 +520,7 @@ hr {
 }
 .header .navbar {
   display: flex;
-  margin-left: 9.375rem;
+  margin-left: 6.25rem;
 }
 .header .navbar-brand__image {
   max-height: 3.75rem;
